@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Iced Coffee</title>
+    <style>
+        body {
+            text-decoration: none;
+            background-image: url(image/icecoffe.jpg);
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #3e2300;
+            text-align: center;
+            padding: 10px;
+
+        }
+
+        nav a {
+            color: rgb(255, 255, 255);
+            margin: 15px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        nav a.active {
+            text-decoration: underline;
+        }
+
+        header {
+            background-color: #3e2300;
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            text-align: center;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 700px;
+            border-radius: 10px;
+            height: 400px;
+        }
+        .card:hover img {
+    transform: scale(1.1);
+}
+  section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+            background-color: burlywood;
+        }
+        .icedcoffe {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.icedcoffe h2 {
+    font-size: 42px;
+    margin-bottom: 40px;
+    color: #3e2300;
+    margin-top: 40px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+.card {
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: #f8f8f8;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.4s ease;
+}
+.card small {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card p{
+    display: block;
+    font-weight: bold;
+}
+ footer {
+            background-color: #3e2300;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="MENU.html">MENU</a>
+    </nav>
+    <section class="icedcoffe">
+        <h2>Iced Cooffe</h2>
+    <div class="container">
+        <div class="card">
+            <img src="image/icedlatte.jpg">
+            <p>iced Latte</p>
+            <small>Rp20.000</small>
+        </div>
+        <div class="card">
+            <img src="image/icedamericano3.jpg">
+            <p>Iced Americano</p>
+            <small>R25.000</small>
+        </div>
+        <div class="card">
+            <img src="image/Iced-Mocha.jpg">
+            <p>Iced Mochachino</p>
+            <small>Rp25.000</small>
+        </div>
+        <div class="card">
+            <img src="image/coldbrew.jpg">
+            <p>Iced Cold Brew</p>
+            <small>Rp32.000</small>
+        </div>
+        <div class="card">
+            <img src="image/caramel1.jpg">
+            <p>Iced Caramel Latte</p>
+            <small>Rp27.000</small>
+        </div>
+        <div class="card">
+            <img src="image/icedcappucino.jpg">
+            <p>Iced Cappuccino</p>
+            <small>Rp25.000</small>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+    <p>&copy; 2026 Zeus Coffee Shop | All Rights Reserved</p>
+</footer>
+
+</body>
+
+</html>
